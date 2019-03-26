@@ -1,0 +1,920 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>
+        我的综合信息
+    </title>
+    <meta charset="UTF-8">
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="../js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="../js/jquery.PrintArea.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function() {
+            $(".info_title").click(function() {
+                $(this).next().toggle();
+            });
+
+
+
+        });
+    </script>
+    <style type="text/css">
+        *
+        {
+            font-size: 12px;
+        }
+        .info
+        {
+            border: 1px solid #056aae;
+            border-right: 1px solid #056aae;
+            border-top: 1px solid #056aae;
+            margin: 4px auto;
+            width: 99%;
+        }
+        .info_title
+        {
+            height: 30px;
+            background: url(../images/blue_to_white_bg.jpg);
+        }
+        .info h2
+        {
+            font-size: 14px;
+            color: #fff;
+            margin: 0;
+            padding-left: 5px;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+<form name="form1" method="post" action="MY_ZHXX.aspx?menu_id=2020430" id="form1">
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="49CFC9B9" />
+    <div >
+        <!--基本信息 -->
+        <div class="info">
+            <div class="info_title">
+                <h2>
+                    学生基本信息</h2>
+            </div>
+            <div>
+                <table width="100%" class="tbDefault">
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            标准考生号：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Bzksh" class="lbl"></span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            录取考生号：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Ksh" class="lbl">0701101012</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            通知书号：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Tzsh" class="lbl">150766</span>
+                        </td>
+                        <td class="tdLeft" rowspan="6" width="130">
+                            <img id="imgPhoto" src="http://stuwebservice.stu.edu.cn/showuserphoto.ashx?vid=6L7ImDaw7oR1CP%2fU9tSREA%3d%3d" height="160" width="120" border="0" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            学号：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Xh" class="lbl">2015101054</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            姓名：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Xs_name" class="lbl">黄村堂</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            曾用名：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Cym" class="lbl"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            性别：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Xb" class="lbl">男</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            籍贯：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Jg" class="lbl">广东省新会市</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            身份证号：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Sfzh_id" class="lbl">1234</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            出生日期：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Csrq_str" class="lbl">19970309</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            民族：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Mz" class="lbl">汉族</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            政治面貌：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Zzmm" class="lbl">共青团员</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            生源地：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Syd" class="lbl">广东省江门市</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            考生类别：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Kslb" class="lbl">农村应届</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            考生科类：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Bylb" class="lbl">理科</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            毕业学校：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Byxx" class="lbl">江门市第一中学</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            投档成绩：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Lqcj" class="lbl">613.00</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            专业学院：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Zyxy" class="lbl">工学院</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            培养层次：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Pycc" class="lbl">本科</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            入学年度：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Rxnd" class="lbl">2015</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            住宿学院：
+                        </td>
+                        <td class="tdLeft" colspan="2">
+                            <span id="lb_Zsxy" class="lbl">思源书院</span>
+                        </td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            学制年限：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Xznx" class="lbl">4</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            宿舍号：
+                        </td>
+                        <td class="tdLeft" colspan="4">
+                            <span id="lbl_housing_no" class="lbl">302</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            当前状态：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Zt_name" class="lbl">当前在校生</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            血型：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_Xx" class="lbl">O型</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            个人特长：
+                        </td>
+                        <td class="tdLeft" colspan="2">
+                            <span id="lb_Grtc" class="lbl">数学</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            专业修读情况：
+                        </td>
+                        <td class="tdLeft" colspan="6">
+                            <div>
+                                <table class="tbGvw" cellspacing="0" rules="all" border="1" id="gvZyxd" width="99%">
+                                    <tr>
+                                        <th scope="col">zy_key</th>
+                                        <th scope="col">专业年度</th>
+                                        <th scope="col">专业名称</th>
+                                        <th scope="col">专业所属学院</th>
+                                        <th scope="col">主辅修类型</th>
+                                        <th scope="col">状态</th>
+                                    </tr>
+                                    <tr>
+                                        <td>90</td>
+                                        <td>2015</td>
+                                        <td>计算机科学与技术（教育部卓越工程师班）</td>
+                                        <td>工学院</td>
+                                        <td>主修</td>
+                                        <td>在读</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--基本信息end -->
+        <!--学业修读情况-->
+        <div class="info">
+            <div class="info_title">
+                <h2>
+                    学业修读情况</h2>
+            </div>
+            <div style="display: none; min-height: 30px;">
+                <table width="100%" class="tbDefault">
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            GPA情况：
+                        </td>
+                        <td class="tdLeft" colspan="6">
+                            <div>
+                                <table class="tbGvw" cellspacing="0" rules="all" border="1" id="gvGPA" width="99%">
+                                    <tr>
+                                        <th scope="col">学年</th>
+                                        <th scope="col">GPA</th>
+                                        <th scope="col">GPA百分比</th>
+                                        <th scope="col">GPA排名</th>
+                                        <th scope="col">总人数</th>
+                                        <th scope="col">数据更新时间</th>
+                                    </tr>
+                                    <tr>
+                                        <td>2015-2016学年</td>
+                                        <td>3.240</td>
+                                        <td>15.789</td>
+                                        <td>3</td>
+                                        <td>19</td>
+                                        <td>2016-12-12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2016-2017学年</td>
+                                        <td>3.570</td>
+                                        <td>12.987</td>
+                                        <td>10</td>
+                                        <td>77</td>
+                                        <td>2017-10-24</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-2018学年</td>
+                                        <td>3.600</td>
+                                        <td>28.947</td>
+                                        <td>22</td>
+                                        <td>76</td>
+                                        <td>2018-10-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>在校期间总评</td>
+                                        <td>3.480</td>
+                                        <td>18.421</td>
+                                        <td>14</td>
+                                        <td>76</td>
+                                        <td>2018-10-15</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            (本系统中的GPA数据仅用于开展特定的奖学金评选工作时更新使用，不是实时更新数据，不作为学生其他用途的GPA数据权威。学生其他用途需要使用的GAP数据请以学分制系统中的GPA数据为准！)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            课程情况：
+                        </td>
+                        <td class="tdLeft" colspan="6">
+                            <table class="tbGvw" width="99%">
+                                <tr>
+                                    <th>
+                                        成绩（以百分制记）
+                                    </th>
+                                    <th>
+                                        课程数
+                                    </th>
+                                    <th>
+                                        成绩（以百分制记）
+                                    </th>
+                                    <th>
+                                        课程数
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        90-100分（优秀）
+                                    </td>
+                                    <td>
+                                        <span id="lb_ach1" class="lbl">16</span>
+                                    </td>
+                                    <td>
+                                        60-69分（及格）
+                                    </td>
+                                    <td>
+                                        <span id="lb_ach4" class="lbl">1</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        80-89分（良好）
+                                    </td>
+                                    <td>
+                                        <span id="lb_ach2" class="lbl">32</span>
+                                    </td>
+                                    <td>
+                                        &lt; 60分（不及格）
+                                    </td>
+                                    <td>
+                                        <span id="lb_ach5" class="lbl">0</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        70-79分（中）
+                                    </td>
+                                    <td>
+                                        <span id="lb_ach3" class="lbl">14</span>
+                                    </td>
+                                    <td>
+                                        总计
+                                    </td>
+                                    <td>
+                                        <span id="lb_total" class="lbl">63</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--学业修读情况end-->
+        <!--学习经历-->
+        <div class="info">
+            <div class="info_title">
+                <h2>
+                    学习经历</h2>
+            </div>
+            <div style="display: none; min-height: 30px;">
+                <div>
+                    <table class="tbGvw" cellspacing="0" rules="all" border="1" id="gvXxjl" width="100%">
+                        <tr>
+                            <th scope="col">起止年月</th>
+                            <th scope="col">何单位学习或工作</th>
+                            <th scope="col">职务</th>
+                        </tr>
+                        <tr>
+                            <td>2012年09月至2015年07月</td>
+                            <td>江门一中</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--学习经历end-->
+        <!--家庭基本情况-->
+        <div class="info">
+            <div class="info_title">
+                <h2>
+                    家庭基本情况</h2>
+            </div>
+            <div style="position: relative; display: none; min-height: 30px;">
+                <table width="100%" class="tbDefault">
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            现住家庭详细地址：
+                        </td>
+                        <td class="tdLeft" colspan="3">
+                            <span id="lb_jtdz_sf" class="lbl">广东省</span>
+                            <span id="lb_jtdz_cs" class="lbl">江门市</span>
+                            <span id="lb_jtdz_xq" class="lbl">蓬江区</span>
+                            <span id="lb_jtdz" class="lbl">杜阮镇杜阮村民委员会东咀村89号</span>
+                            <div id="digestJtjbxx" onmouseover="this.style.visibility='hidden';" onmouseout="this.style.visibility='visible';" style="position: absolute; top: 1px;
+                                right: 1px;">
+                                <img border="0" src="../images/ytj.gif">
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            邮政编码：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_yzbm" class="lbl">529075</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            家庭电话：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_lxqh" class="lbl">0750</span>
+                            &nbsp;—
+                            <span id="lb_jtdh" class="lbl">3677812</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            家庭联系人：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_jtlxr" class="lbl">黄振强</span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            个人联系方式：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_grlxfs" class="lbl">13592887521</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--家庭基本情况end-->
+        <!--家庭经济情况-->
+        <div class="info">
+            <div class="info_title">
+                <h2>
+                    家庭经济情况</h2>
+            </div>
+            <div style="position: relative; display: none; min-height: 30px;">
+                <table width="100%" class="tbDefault">
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            家庭类型：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_jtlx" class="lbl"></span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            生源类别：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_sylb" class="lbl"></span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            家庭人口数：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_jtrk" class="lbl"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            获得当地资助情况：
+                        </td>
+                        <td class="tdLeft" colspan="5">
+                            <span id="lb_zzqk" class="lbl"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            家庭月人均收入：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_jtysr" class="lbl" onmouseover="javascript:document.getElementById('Div1').style.display=''" onmouseout="javascript:document.getElementById('Div1').style.display='none'"></span>元/月
+                            <div style="position: absolute; width: 200px; height: 35px; background-color: #ffefa4;
+                                border: 1px #FF9900 solid; text-align: left; padding: 5px; line-height: 150%;
+                                color: #dc6800; display: none" id="Div1">
+                                注：务农人员必须把农作物和其他收入转换为货币收入，收入不能为零。
+                            </div>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            是否持有相关困难证件：
+                        </td>
+                        <td class="tdLeft" colspan="3">
+                            <span id="lb_knzj" class="lbl"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            家庭借贷款总额：
+                        </td>
+                        <td class="tdLeft">
+                            <span id="lb_jtdkje" class="lbl"></span>
+                        </td>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            借贷来源：
+                        </td>
+                        <td class="tdLeft" colspan="3">
+                            <span id="lb_jdly" class="lbl"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80" rowspan="5">
+                            影响家庭经济情况有关信息：
+                        </td>
+                        <td class="tdLeft" width="140">
+                            家庭遭受自然灾害情况：
+                        </td>
+                        <td class="tdLeft" colspan="4">
+                            <span id="lb_zszrzh" class="lbl"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdLeft" width="140">
+                            家庭遭受突发意外事件：
+                        </td>
+                        <td class="tdLeft" colspan="4">
+                            <span id="lb_zstfyw" class="lbl"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdLeft" width="140">
+                            家庭成员因残疾、 年迈而劳动能力弱情况：
+                        </td>
+                        <td class="tdLeft" colspan="4">
+                            <span id="lb_zscjnm" class="lbl"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdLeft" width="140">
+                            家庭成员失业情况：
+                        </td>
+                        <td class="tdLeft" colspan="4">
+                            <span id="lb_zssyqk" class="lbl"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdLeft" width="140">
+                            其他情况：
+                        </td>
+                        <td class="tdLeft" colspan="4">
+                            <span id="lb_zsqtqk" class="lbl"></span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--家庭经济情况end-->
+        <!--家庭主要成员-->
+        <div class="info">
+            <div class="info_title">
+                <h2>
+                    家庭主要成员</h2>
+            </div>
+            <div style="position: relative; display: none; min-height: 30px;">
+                <div>
+                    <table class="tbGvw" cellspacing="0" rules="all" border="1" id="gvJtzycy" width="100%">
+                        <tr>
+                            <th scope="col">姓名</th>
+                            <th scope="col">年龄</th>
+                            <th scope="col">关系</th>
+                            <th scope="col">身份证</th>
+                            <th scope="col">现在何处工作既职务</th>
+                            <th scope="col">联系电话</th>
+                            <th scope="col">月收入</th>
+                        </tr>
+                        <tr>
+                            <td>黄振强</td>
+                            <td>47</td>
+                            <td>父亲</td>
+                            <td>&nbsp;</td>
+                            <td>江门塑胶丝花厂</td>
+                            <td>13923074856</td>
+                            <td>0.00</td>
+                        </tr>
+                        <tr>
+                            <td>黄美解</td>
+                            <td>46</td>
+                            <td>父亲</td>
+                            <td>&nbsp;</td>
+                            <td>杜阮瑶芦小学</td>
+                            <td>13422654570</td>
+                            <td>0.00</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="digestJtzycy" onmouseover="this.style.visibility='hidden';" onmouseout="this.style.visibility='visible';" style="position: absolute; top: 1px;
+                    right: 1px;">
+                    <img border="0" src="../images/ytj.gif">
+
+                </div>
+            </div>
+        </div>
+        <!--家庭主要成员end-->
+        <!--主要社会关系-->
+        <div class="info">
+            <div class="info_title">
+                <h2>
+                    主要社会关系</h2>
+            </div>
+            <div style="position: relative; display: none; min-height: 30px;">
+                <div>
+                    <table class="tbGvw" cellspacing="0" rules="all" border="1" id="gvZyshgx" width="100%">
+                        <tr>
+                            <th scope="col">姓名</th>
+                            <th scope="col">年龄</th>
+                            <th scope="col">关系</th>
+                            <th scope="col">现在何处工作既职务</th>
+                            <th scope="col">联系电话</th>
+                            <th scope="col">月收入</th>
+                            <th scope="col">与你家经济联系或供养情况</th>
+                        </tr>
+                        <tr>
+                            <td>黄振强</td>
+                            <td>47</td>
+                            <td>父亲</td>
+                            <td>江门塑胶丝花厂</td>
+                            <td>13923074856</td>
+                            <td>3000.00</td>
+                            <td>经济来源</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="digestZyshgx" onmouseover="this.style.visibility='hidden';" onmouseout="this.style.visibility='visible';" style="position: absolute; top: 1px;
+                    right: 1px;">
+                    <img border="0" src="../images/ytj.gif">
+
+                </div>
+            </div>
+        </div>
+        <!--主要社会关系end-->
+        <!--学杂费缴费情况-->
+        <div class="info">
+            <div class="info_title">
+                <h2>
+                    学杂费缴费情况</h2>
+            </div>
+            <div style="display: none; min-height: 30px;">
+                <table width="100%" class="tbDefault">
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            学杂费收取情况：
+                        </td>
+                        <td class="tdLeft">
+                            <div>
+                                <table class="tbGvw" cellspacing="0" rules="all" border="1" id="gvXzfsq" width="100%">
+                                    <tr>
+                                        <th scope="col">学年</th>
+                                        <th scope="col">应收</th>
+                                        <th scope="col">已收</th>
+                                    </tr>
+                                    <tr>
+                                        <td>2015-2016</td>
+                                        <td>6060.00</td>
+                                        <td>6060.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2016-2017</td>
+                                        <td>6960.00</td>
+                                        <td>6960.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-2018</td>
+                                        <td>6960.00</td>
+                                        <td>6960.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2018-2019</td>
+                                        <td>6960.00</td>
+                                        <td>6960.00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            学杂费收取流水账：
+                        </td>
+                        <td class="tdLeft">
+                            <div>
+                                <table class="tbGvw" cellspacing="0" rules="all" border="1" id="gvXzfsqlsz" width="100%">
+                                    <tr>
+                                        <th scope="col">收退时间</th>
+                                        <th scope="col">收款金额</th>
+                                        <th scope="col">退款金额</th>
+                                        <th scope="col">收退方式</th>
+                                    </tr>
+                                    <tr>
+                                        <td>2015-10-16</td>
+                                        <td>6060.00</td>
+                                        <td>0.00</td>
+                                        <td>银行账号</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2016-09-20</td>
+                                        <td>6960.00</td>
+                                        <td>0.00</td>
+                                        <td>银行账号</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-09-20</td>
+                                        <td>6960.00</td>
+                                        <td>0.00</td>
+                                        <td>银行账号</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2018-09-05</td>
+                                        <td>5160.00</td>
+                                        <td>0.00</td>
+                                        <td>支付平台</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2018-09-05</td>
+                                        <td>1800.00</td>
+                                        <td>0.00</td>
+                                        <td>支付平台</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--学杂费缴费情况end-->
+        <!--奖助学金获得情况-->
+        <div class="info">
+            <div class="info_title">
+                <h2>
+                    奖助学金获得情况</h2>
+            </div>
+            <div style="display: none; min-height: 30px;">
+                <table width="100%" class="tbDefault">
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            奖学金获得情况：
+                        </td>
+                        <td class="tdLeft">
+                            <div>
+                                <table class="tbGvw" cellspacing="0" rules="all" border="1" id="gvJxj" width="100%">
+                                    <tr>
+                                        <th scope="col">学年</th>
+                                        <th scope="col">奖学金项目</th>
+                                        <th scope="col">币种</th>
+                                        <th scope="col">奖金</th>
+                                    </tr>
+                                    <tr>
+                                        <td width="120">2015-2016学年</td>
+                                        <td>三等学业优秀奖学金</td>
+                                        <td width="100">人民币</td>
+                                        <td width="100">500.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="120">2016-2017学年</td>
+                                        <td>二等学业优秀奖学金</td>
+                                        <td width="100">人民币</td>
+                                        <td width="100">1000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="120">2017-2018学年</td>
+                                        <td>严庆森先生、夫人奖学金</td>
+                                        <td width="100">港币</td>
+                                        <td width="100">5000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="120">2017-2018学年</td>
+                                        <td>杰出领导才能奖</td>
+                                        <td width="100">人民币</td>
+                                        <td width="100">500.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="120">2017-2018学年</td>
+                                        <td>校园服务积极分子奖</td>
+                                        <td width="100">人民币</td>
+                                        <td width="100">200.00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdRight bgEFEFEF" width="80">
+                            助学金获得情况：
+                        </td>
+                        <td class="tdLeft">
+                            <div>
+
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--奖助学金获得情况end-->
+        <!--喜报情况-->
+        <div class="info">
+            <div class="info_title">
+                <h2>
+                    喜报情况</h2>
+            </div>
+            <div style="overflow-y: scroll; height: 100px; display: none; min-height: 30px;">
+                <div>
+                    <table class="tbGvw" cellspacing="0" rules="all" border="1" id="gvXbqk" width="100%">
+                        <tr>
+                            <th scope="col">发放类别</th>
+                            <th scope="col">奖励级别</th>
+                            <th scope="col">获奖项目</th>
+                            <th scope="col">获奖日期</th>
+                        </tr>
+                        <tr>
+                            <td>奖学资助</td>
+                            <td>校级</td>
+                            <td>二等学业优秀奖学金</td>
+                            <td>2017-12-21</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--喜报情况end-->
+        <!--勤工俭学情况-->
+        <div class="info">
+            <div class="info_title">
+                <h2>
+                    勤工俭学情况</h2>
+            </div>
+            <div style="overflow-y: scroll; height: 100px; display: none; min-height: 30px;">
+                <div>
+
+                </div>
+            </div>
+        </div>
+        <!--勤工俭学情况end-->
+        <!--贫困认定情况-->
+        <div class="info">
+            <div class="info_title">
+                <h2>
+                    贫困认定情况</h2>
+            </div>
+            <div style="overflow-x:hidden; display: none; min-height: 30px;">
+                <div>
+
+                </div>
+            </div>
+        </div>
+        <!--贫困认定情况end-->
+        <!--助学贷款情况-->
+        <div class="info">
+            <div class="info_title">
+                <h2>
+                    助学贷款情况</h2>
+            </div>
+            <div style="overflow-x:hidden;  display: none; min-height: 30px;">
+                <div>
+
+                </div>
+            </div>
+        </div>
+        <!--助学贷款情况end-->
+
+
+    </div>
+</form>
+</body>
+</html>
